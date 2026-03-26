@@ -1,0 +1,21 @@
+# OS Log Agent Configuration
+# Required keys: server_url, api_key
+# Optional keys: batch_size, poll_interval_seconds, flush_interval_seconds, sqlite_db_path
+
+# Backend FastAPI server URL for log ingest
+server_url: "http://localhost:8000/api/logs/ingest"
+
+# API key required by the backend (must match X-API-Key header)
+api_key: "super-secret-key-123"
+
+# Number of logs to batch before sending (default: 100)
+batch_size: 100
+
+# Seconds between polling Windows event logs (default: 10)
+poll_interval_seconds: 10
+
+# Seconds before forcing a flush of pending logs (default: 60)
+flush_interval_seconds: 60
+
+# Path to local SQLite buffer database (default: local_buffer.db)
+sqlite_db_path: "local_buffer.db"
