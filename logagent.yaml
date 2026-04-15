@@ -1,0 +1,6 @@
+server_url: http://localhost:8000/api/logs/ingest
+api_key: rNpupdhuNkg-bNC7IxqE_A3eI34K9nI4_kJQCC9qToE
+batch_size: 100
+poll_interval_seconds: 5
+flush_interval_seconds: 60
+sqlite_db_path: local_buffer.db

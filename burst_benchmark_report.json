@@ -1,0 +1,37 @@
+{
+  "count_sent": 1000,
+  "workers": 120,
+  "project_id": 1,
+  "burst_elapsed_s": 8.25,
+  "throughput_req_per_s": 121.21,
+  "success_count": 100,
+  "failure_count": 900,
+  "http_latency_ms": {
+    "avg": 957.84,
+    "p50": 759.16,
+    "p95": 2543.09,
+    "p99": 3054.3,
+    "max": 3145.2
+  },
+  "backend_process": {
+    "pid": 7824,
+    "rss_mb": {
+      "min": 189.86,
+      "max": 189.86,
+      "delta": 0.0
+    },
+    "cpu_percent": {
+      "avg": 0.11,
+      "max": 15.5
+    },
+    "sample_count": 268,
+    "monitor_window_s": 20
+  },
+  "error_examples": [
+    429,
+    429,
+    429,
+    429,
+    429
+  ]
+}
